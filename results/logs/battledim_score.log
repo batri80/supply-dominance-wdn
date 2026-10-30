@@ -1,0 +1,4 @@
+PERFECT_TEAM         score   523,153.82  expected   523,153.82  TP 23 FP 0  OK
+test_team            score   523,153.82  expected   523,153.82  TP 23 FP 0  OK
+test_team_multiple   score     9,547.81  expected     9,547.81  TP 1 FP 1  OK
+Scoring port validated.

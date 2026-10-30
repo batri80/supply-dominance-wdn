@@ -1,0 +1,4 @@
+primary_medoid {'theta': 0.08, 'delta': 0.002, 'method': 'medoid', 'k0': 4, 'min_gain': 0.05, 'reset_on_repair': False, 'series': 'daily'} {'total_score': np.float64(173276.77), 'TP': 13, 'FP': 5, 'FN': 10}
+same_argmax {'theta': 0.08, 'delta': 0.002, 'method': 'argmax', 'k0': 4, 'min_gain': 0.05, 'reset_on_repair': False, 'series': 'daily'} {'total_score': np.float64(184878.88), 'TP': 13, 'FP': 4, 'FN': 10}
+strict_medoid {'theta': 0.16, 'delta': 0.002, 'method': 'medoid', 'k0': 4, 'min_gain': 0.05, 'reset_on_repair': False, 'series': 'daily'} {'total_score': np.float64(142400.19), 'TP': 11, 'FP': 3, 'FN': 12}
+strict_argmax {'theta': 0.16, 'delta': 0.002, 'method': 'argmax', 'k0': 4, 'min_gain': 0.05, 'reset_on_repair': False, 'series': 'daily'} {'total_score': np.float64(148567.46), 'TP': 11, 'FP': 3, 'FN': 12}

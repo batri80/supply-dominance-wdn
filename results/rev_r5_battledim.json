@@ -1,0 +1,515 @@
+{
+ "what_was_fitted": {
+  "hydraulic_model": "nominal L-Town model, unchanged (no calibration of roughness, demands or leaks)",
+  "influence_matrix": "linearised from one steady-state simulation of the nominal model",
+  "residual_regression": "per-sensor regression on inflows, their squares, tank level and hour-of-day harmonics, fitted on SCADA data before the first 2018 leak (to 2018-01-08 12:00)",
+  "detector_settings": "threshold and candidate-set tolerance chosen on 2018 data, scored against the 2018 leak list supplied by the organisers; four variants fixed before 2019 was evaluated",
+  "2019_labels": "used only for scoring"
+ },
+ "same_argmax": {
+  "score": 184878.88,
+  "TP": 13,
+  "FP": 4,
+  "leaks": [
+   {
+    "link": "p257",
+    "type": "incipient",
+    "start": "2018-01-08 13:30",
+    "end": "2019-12-31 23:55",
+    "detected": true,
+    "alarm": "2019-05-15 23:55",
+    "delay_days": 135.0,
+    "distance_m": 243.8
+   },
+   {
+    "link": "p427",
+    "type": "incipient",
+    "start": "2018-02-13 08:25",
+    "end": "2019-12-31 23:55",
+    "detected": false,
+    "alarm": null,
+    "delay_days": null,
+    "distance_m": null
+   },
+   {
+    "link": "p810",
+    "type": "incipient",
+    "start": "2018-07-28 03:05",
+    "end": "2019-12-31 23:55",
+    "detected": true,
+    "alarm": "2019-07-12 23:55",
+    "delay_days": 193.0,
+    "distance_m": 0.0
+   },
+   {
+    "link": "p654",
+    "type": "incipient",
+    "start": "2018-07-05 03:40",
+    "end": "2019-12-31 23:55",
+    "detected": true,
+    "alarm": "2019-06-13 23:55",
+    "delay_days": 164.0,
+    "distance_m": 148.4
+   },
+   {
+    "link": "p523",
+    "type": "abrupt",
+    "start": "2019-01-15 23:00",
+    "end": "2019-02-01 09:50",
+    "detected": true,
+    "alarm": "2019-01-21 23:55",
+    "delay_days": 6.0,
+    "distance_m": 107.7
+   },
+   {
+    "link": "p827",
+    "type": "abrupt",
+    "start": "2019-01-24 18:30",
+    "end": "2019-02-07 09:05",
+    "detected": true,
+    "alarm": "2019-02-04 23:55",
+    "delay_days": 11.2,
+    "distance_m": 101.7
+   },
+   {
+    "link": "p280",
+    "type": "abrupt",
+    "start": "2019-02-10 13:05",
+    "end": "2019-12-31 23:55",
+    "detected": false,
+    "alarm": null,
+    "delay_days": null,
+    "distance_m": null
+   },
+   {
+    "link": "p653",
+    "type": "incipient",
+    "start": "2019-03-03 13:10",
+    "end": "2019-05-05 12:10",
+    "detected": false,
+    "alarm": null,
+    "delay_days": null,
+    "distance_m": null
+   },
+   {
+    "link": "p710",
+    "type": "abrupt",
+    "start": "2019-03-24 14:15",
+    "end": "2019-12-31 23:55",
+    "detected": true,
+    "alarm": "2019-03-29 23:55",
+    "delay_days": 5.4,
+    "distance_m": 167.9
+   },
+   {
+    "link": "p514",
+    "type": "abrupt",
+    "start": "2019-04-02 20:40",
+    "end": "2019-05-23 14:55",
+    "detected": true,
+    "alarm": "2019-04-12 23:55",
+    "delay_days": 10.1,
+    "distance_m": 51.4
+   },
+   {
+    "link": "p331",
+    "type": "abrupt",
+    "start": "2019-04-20 10:10",
+    "end": "2019-12-31 23:55",
+    "detected": false,
+    "alarm": null,
+    "delay_days": null,
+    "distance_m": null
+   },
+   {
+    "link": "p193",
+    "type": "incipient",
+    "start": "2019-05-19 10:40",
+    "end": "2019-12-31 23:55",
+    "detected": true,
+    "alarm": "2019-12-06 23:55",
+    "delay_days": 201.6,
+    "distance_m": 131.3
+   },
+   {
+    "link": "p277",
+    "type": "incipient",
+    "start": "2019-05-30 21:55",
+    "end": "2019-12-31 23:55",
+    "detected": true,
+    "alarm": "2019-07-26 23:55",
+    "delay_days": 57.1,
+    "distance_m": 150.8
+   },
+   {
+    "link": "p142",
+    "type": "abrupt",
+    "start": "2019-06-12 19:55",
+    "end": "2019-07-17 09:25",
+    "detected": false,
+    "alarm": null,
+    "delay_days": null,
+    "distance_m": null
+   },
+   {
+    "link": "p680",
+    "type": "abrupt",
+    "start": "2019-07-10 08:45",
+    "end": "2019-12-31 23:55",
+    "detected": false,
+    "alarm": null,
+    "delay_days": null,
+    "distance_m": null
+   },
+   {
+    "link": "p586",
+    "type": "incipient",
+    "start": "2019-07-26 14:40",
+    "end": "2019-09-16 03:20",
+    "detected": true,
+    "alarm": "2019-08-24 23:55",
+    "delay_days": 29.4,
+    "distance_m": 220.8
+   },
+   {
+    "link": "p721",
+    "type": "incipient",
+    "start": "2019-08-02 03:00",
+    "end": "2019-12-31 23:55",
+    "detected": false,
+    "alarm": null,
+    "delay_days": null,
+    "distance_m": null
+   },
+   {
+    "link": "p800",
+    "type": "incipient",
+    "start": "2019-08-16 14:00",
+    "end": "2019-10-01 16:35",
+    "detected": true,
+    "alarm": "2019-09-07 23:55",
+    "delay_days": 22.4,
+    "distance_m": 121.7
+   },
+   {
+    "link": "p123",
+    "type": "incipient",
+    "start": "2019-09-13 20:05",
+    "end": "2019-12-31 23:55",
+    "detected": true,
+    "alarm": "2019-10-19 23:55",
+    "delay_days": 36.2,
+    "distance_m": 295.3
+   },
+   {
+    "link": "p455",
+    "type": "incipient",
+    "start": "2019-10-03 14:00",
+    "end": "2019-12-31 23:55",
+    "detected": false,
+    "alarm": null,
+    "delay_days": null,
+    "distance_m": null
+   },
+   {
+    "link": "p762",
+    "type": "incipient",
+    "start": "2019-10-09 10:15",
+    "end": "2019-12-31 23:55",
+    "detected": false,
+    "alarm": null,
+    "delay_days": null,
+    "distance_m": null
+   },
+   {
+    "link": "p426",
+    "type": "abrupt",
+    "start": "2019-10-25 13:25",
+    "end": "2019-12-31 23:55",
+    "detected": true,
+    "alarm": "2019-11-02 23:55",
+    "delay_days": 8.4,
+    "distance_m": 98.8
+   },
+   {
+    "link": "p879",
+    "type": "incipient",
+    "start": "2019-11-20 11:55",
+    "end": "2019-12-31 23:55",
+    "detected": false,
+    "alarm": null,
+    "delay_days": null,
+    "distance_m": null
+   }
+  ],
+  "false_alarms": [
+   {
+    "link": "p385",
+    "time": "2019-02-18 23:55"
+   },
+   {
+    "link": "p350",
+    "time": "2019-04-26 23:55"
+   },
+   {
+    "link": "p739",
+    "time": "2019-05-29 23:55"
+   },
+   {
+    "link": "p385",
+    "time": "2019-10-05 23:55"
+   }
+  ]
+ },
+ "strict_argmax": {
+  "score": 148567.46,
+  "TP": 11,
+  "FP": 3,
+  "leaks": [
+   {
+    "link": "p257",
+    "type": "incipient",
+    "start": "2018-01-08 13:30",
+    "end": "2019-12-31 23:55",
+    "detected": true,
+    "alarm": "2019-08-01 23:55",
+    "delay_days": 213.0,
+    "distance_m": 160.1
+   },
+   {
+    "link": "p427",
+    "type": "incipient",
+    "start": "2018-02-13 08:25",
+    "end": "2019-12-31 23:55",
+    "detected": false,
+    "alarm": null,
+    "delay_days": null,
+    "distance_m": null
+   },
+   {
+    "link": "p810",
+    "type": "incipient",
+    "start": "2018-07-28 03:05",
+    "end": "2019-12-31 23:55",
+    "detected": false,
+    "alarm": null,
+    "delay_days": null,
+    "distance_m": null
+   },
+   {
+    "link": "p654",
+    "type": "incipient",
+    "start": "2018-07-05 03:40",
+    "end": "2019-12-31 23:55",
+    "detected": true,
+    "alarm": "2019-06-15 23:55",
+    "delay_days": 166.0,
+    "distance_m": 148.4
+   },
+   {
+    "link": "p523",
+    "type": "abrupt",
+    "start": "2019-01-15 23:00",
+    "end": "2019-02-01 09:50",
+    "detected": true,
+    "alarm": "2019-01-21 23:55",
+    "delay_days": 6.0,
+    "distance_m": 107.7
+   },
+   {
+    "link": "p827",
+    "type": "abrupt",
+    "start": "2019-01-24 18:30",
+    "end": "2019-02-07 09:05",
+    "detected": true,
+    "alarm": "2019-02-04 23:55",
+    "delay_days": 11.2,
+    "distance_m": 101.7
+   },
+   {
+    "link": "p280",
+    "type": "abrupt",
+    "start": "2019-02-10 13:05",
+    "end": "2019-12-31 23:55",
+    "detected": false,
+    "alarm": null,
+    "delay_days": null,
+    "distance_m": null
+   },
+   {
+    "link": "p653",
+    "type": "incipient",
+    "start": "2019-03-03 13:10",
+    "end": "2019-05-05 12:10",
+    "detected": false,
+    "alarm": null,
+    "delay_days": null,
+    "distance_m": null
+   },
+   {
+    "link": "p710",
+    "type": "abrupt",
+    "start": "2019-03-24 14:15",
+    "end": "2019-12-31 23:55",
+    "detected": true,
+    "alarm": "2019-07-15 23:55",
+    "delay_days": 113.4,
+    "distance_m": 262.0
+   },
+   {
+    "link": "p514",
+    "type": "abrupt",
+    "start": "2019-04-02 20:40",
+    "end": "2019-05-23 14:55",
+    "detected": true,
+    "alarm": "2019-04-16 23:55",
+    "delay_days": 14.1,
+    "distance_m": 51.4
+   },
+   {
+    "link": "p331",
+    "type": "abrupt",
+    "start": "2019-04-20 10:10",
+    "end": "2019-12-31 23:55",
+    "detected": false,
+    "alarm": null,
+    "delay_days": null,
+    "distance_m": null
+   },
+   {
+    "link": "p193",
+    "type": "incipient",
+    "start": "2019-05-19 10:40",
+    "end": "2019-12-31 23:55",
+    "detected": true,
+    "alarm": "2019-05-29 23:55",
+    "delay_days": 10.6,
+    "distance_m": 212.0
+   },
+   {
+    "link": "p277",
+    "type": "incipient",
+    "start": "2019-05-30 21:55",
+    "end": "2019-12-31 23:55",
+    "detected": false,
+    "alarm": null,
+    "delay_days": null,
+    "distance_m": null
+   },
+   {
+    "link": "p142",
+    "type": "abrupt",
+    "start": "2019-06-12 19:55",
+    "end": "2019-07-17 09:25",
+    "detected": false,
+    "alarm": null,
+    "delay_days": null,
+    "distance_m": null
+   },
+   {
+    "link": "p680",
+    "type": "abrupt",
+    "start": "2019-07-10 08:45",
+    "end": "2019-12-31 23:55",
+    "detected": false,
+    "alarm": null,
+    "delay_days": null,
+    "distance_m": null
+   },
+   {
+    "link": "p586",
+    "type": "incipient",
+    "start": "2019-07-26 14:40",
+    "end": "2019-09-16 03:20",
+    "detected": true,
+    "alarm": "2019-08-27 23:55",
+    "delay_days": 32.4,
+    "distance_m": 220.8
+   },
+   {
+    "link": "p721",
+    "type": "incipient",
+    "start": "2019-08-02 03:00",
+    "end": "2019-12-31 23:55",
+    "detected": false,
+    "alarm": null,
+    "delay_days": null,
+    "distance_m": null
+   },
+   {
+    "link": "p800",
+    "type": "incipient",
+    "start": "2019-08-16 14:00",
+    "end": "2019-10-01 16:35",
+    "detected": true,
+    "alarm": "2019-09-10 23:55",
+    "delay_days": 25.4,
+    "distance_m": 121.7
+   },
+   {
+    "link": "p123",
+    "type": "incipient",
+    "start": "2019-09-13 20:05",
+    "end": "2019-12-31 23:55",
+    "detected": true,
+    "alarm": "2019-10-08 23:55",
+    "delay_days": 25.2,
+    "distance_m": 295.3
+   },
+   {
+    "link": "p455",
+    "type": "incipient",
+    "start": "2019-10-03 14:00",
+    "end": "2019-12-31 23:55",
+    "detected": false,
+    "alarm": null,
+    "delay_days": null,
+    "distance_m": null
+   },
+   {
+    "link": "p762",
+    "type": "incipient",
+    "start": "2019-10-09 10:15",
+    "end": "2019-12-31 23:55",
+    "detected": false,
+    "alarm": null,
+    "delay_days": null,
+    "distance_m": null
+   },
+   {
+    "link": "p426",
+    "type": "abrupt",
+    "start": "2019-10-25 13:25",
+    "end": "2019-12-31 23:55",
+    "detected": true,
+    "alarm": "2019-10-29 23:55",
+    "delay_days": 4.4,
+    "distance_m": 98.8
+   },
+   {
+    "link": "p879",
+    "type": "incipient",
+    "start": "2019-11-20 11:55",
+    "end": "2019-12-31 23:55",
+    "detected": false,
+    "alarm": null,
+    "delay_days": null,
+    "distance_m": null
+   }
+  ],
+  "false_alarms": [
+   {
+    "link": "p385",
+    "time": "2019-02-18 23:55"
+   },
+   {
+    "link": "p350",
+    "time": "2019-04-30 23:55"
+   },
+   {
+    "link": "p778",
+    "time": "2019-09-24 23:55"
+   }
+  ]
+ }
+}

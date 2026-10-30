@@ -1,0 +1,25 @@
+ky4: 959 junctions, 957 candidates, 162 maximal shadows covering 459 junctions
+budget 5% (m=48)
+   random      hop_err 3.81  top1 0.142  top5 0.444  groups 171.7  in_shadow 22.5
+   pagerank    hop_err 3.50  top1 0.159  top5 0.476  groups 168  in_shadow 36
+   dom_struct  hop_err 2.56  top1 0.192  top5 0.584  groups 217  in_shadow 24
+   fps_all     hop_err 2.49  top1 0.203  top5 0.594  groups 217  in_shadow 42
+   dom_linear  hop_err 2.85  top1 0.166  top5 0.523  groups 202  in_shadow 29
+   linear_nocap hop_err 2.81  top1 0.169  top5 0.534  groups 206  in_shadow 30
+   greedy_lib  hop_err 2.63  top1 0.182  top5 0.572  groups 219  in_shadow 30
+budget 10% (m=96)
+   random      hop_err 2.52  top1 0.232  top5 0.626  groups 220.6  in_shadow 47.1
+   pagerank    hop_err 2.71  top1 0.213  top5 0.594  groups 186  in_shadow 57
+   dom_struct  hop_err 1.96  top1 0.265  top5 0.707  groups 267  in_shadow 39
+   fps_all     hop_err 1.85  top1 0.301  top5 0.727  groups 285  in_shadow 82
+   dom_linear  hop_err 2.42  top1 0.217  top5 0.617  groups 221  in_shadow 37
+   linear_nocap hop_err 2.34  top1 0.219  top5 0.627  groups 220  in_shadow 51
+   greedy_lib  hop_err 2.12  top1 0.237  top5 0.676  groups 242  in_shadow 55
+budget 20% (m=192)
+   random      hop_err 1.66  top1 0.327  top5 0.765  groups 268.6  in_shadow 91.0
+   pagerank    hop_err 1.96  top1 0.299  top5 0.737  groups 237  in_shadow 86
+   dom_struct  hop_err 1.65  top1 0.325  top5 0.773  groups 282  in_shadow 39
+   fps_all     hop_err 1.37  top1 0.413  top5 0.821  groups 337  in_shadow 157
+   dom_linear  hop_err 1.96  top1 0.268  top5 0.698  groups 222  in_shadow 53
+   linear_nocap hop_err 1.96  top1 0.266  top5 0.699  groups 222  in_shadow 83
+   greedy_lib  hop_err 1.73  top1 0.297  top5 0.759  groups 245  in_shadow 101

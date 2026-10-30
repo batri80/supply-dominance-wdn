@@ -1,0 +1,54 @@
+ltown: 3000 training and 800 test scenarios (263 concurrent), 5 seeds
+      hybrid_nodom seed 0 epoch 10: loss 4.4442
+      hybrid_nodom seed 0 epoch 20: loss 4.4117
+      hybrid_nodom seed 0 epoch 30: loss 4.3936
+  seed 0 hybrid_nodom  within 300 m 0.812
+      hybrid seed 0 epoch 10: loss 4.3482
+      hybrid seed 0 epoch 20: loss 4.3022
+      hybrid seed 0 epoch 30: loss 4.2225
+  seed 0 hybrid        within 300 m 0.786
+      hybrid_nodom seed 1 epoch 10: loss 4.4498
+      hybrid_nodom seed 1 epoch 20: loss 4.4233
+      hybrid_nodom seed 1 epoch 30: loss 4.4068
+  seed 1 hybrid_nodom  within 300 m 0.810
+      hybrid seed 1 epoch 10: loss 4.3187
+      hybrid seed 1 epoch 20: loss 4.2604
+      hybrid seed 1 epoch 30: loss 4.1774
+  seed 1 hybrid        within 300 m 0.766
+      hybrid_nodom seed 2 epoch 10: loss 4.5169
+      hybrid_nodom seed 2 epoch 20: loss 4.4649
+      hybrid_nodom seed 2 epoch 30: loss 4.4418
+  seed 2 hybrid_nodom  within 300 m 0.792
+      hybrid seed 2 epoch 10: loss 4.3453
+      hybrid seed 2 epoch 20: loss 4.3064
+      hybrid seed 2 epoch 30: loss 4.2112
+  seed 2 hybrid        within 300 m 0.792
+      hybrid_nodom seed 3 epoch 10: loss 4.4712
+      hybrid_nodom seed 3 epoch 20: loss 4.4202
+      hybrid_nodom seed 3 epoch 30: loss 4.4107
+  seed 3 hybrid_nodom  within 300 m 0.790
+      hybrid seed 3 epoch 10: loss 4.3094
+      hybrid seed 3 epoch 20: loss 4.2386
+      hybrid seed 3 epoch 30: loss 4.1893
+  seed 3 hybrid        within 300 m 0.801
+      hybrid_nodom seed 4 epoch 10: loss 4.4635
+      hybrid_nodom seed 4 epoch 20: loss 4.4233
+      hybrid_nodom seed 4 epoch 30: loss 4.4108
+  seed 4 hybrid_nodom  within 300 m 0.775
+      hybrid seed 4 epoch 10: loss 4.3360
+      hybrid seed 4 epoch 20: loss 4.2747
+      hybrid seed 4 epoch 30: loss 4.2013
+  seed 4 hybrid        within 300 m 0.738
+
+ltown: per-seed share within 300 m (prior 0.750)
+  seed 0: hybrid 0.786  nodom 0.812  hybrid-prior +0.036 [+0.003, +0.069]  McNemar p 0.034
+  seed 1: hybrid 0.766  nodom 0.810  hybrid-prior +0.016 [-0.018, +0.050]  McNemar p 0.393
+  seed 2: hybrid 0.792  nodom 0.792  hybrid-prior +0.043 [+0.009, +0.076]  McNemar p 0.0176
+  seed 3: hybrid 0.801  nodom 0.790  hybrid-prior +0.051 [+0.018, +0.084]  McNemar p 0.00269
+  seed 4: hybrid 0.738  nodom 0.775  hybrid-prior -0.013 [-0.051, +0.022]  McNemar p 0.544
+  hybrid_minus_prior   t over seeds +0.027 [-0.005, +0.058]   hierarchical +0.027 [-0.011, +0.064]
+  hybrid_minus_nodom   t over seeds -0.019 [-0.049, +0.010]   hierarchical -0.019 [-0.049, +0.010]
+  nodom_minus_prior    t over seeds +0.046 [+0.027, +0.065]   hierarchical +0.046 [+0.018, +0.073]
+  hybrid-prior, single     hierarchical -0.004 [-0.049, +0.036]
+  hybrid-prior, concurrent hierarchical +0.090 [+0.029, +0.153]
+  decision: {'hybrid_improves_on_prior': False, 'dominance_flags_help': False}

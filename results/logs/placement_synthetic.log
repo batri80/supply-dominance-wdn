@@ -1,0 +1,25 @@
+synthetic: 53 junctions, 53 candidates, 1 maximal shadows covering 8 junctions
+budget 5% (m=3)
+   random      hop_err 4.12  top1 0.082  top5 0.296  groups 12.866666666666667  in_shadow 0.43333333333333335
+   pagerank    hop_err 3.87  top1 0.104  top5 0.387  groups 9  in_shadow 0
+   dom_struct  hop_err 3.67  top1 0.106  top5 0.338  groups 9  in_shadow 1
+   fps_all     hop_err 3.67  top1 0.106  top5 0.338  groups 9  in_shadow 1
+   dom_linear  hop_err 2.68  top1 0.160  top5 0.415  groups 10  in_shadow 1
+   linear_nocap hop_err 2.68  top1 0.160  top5 0.415  groups 10  in_shadow 1
+   greedy_lib  hop_err 9.99  top1 0.055  top5 0.162  groups 3  in_shadow 2
+budget 10% (m=5)
+   random      hop_err 3.01  top1 0.170  top5 0.488  groups 24.266666666666666  in_shadow 0.8
+   pagerank    hop_err 2.47  top1 0.142  top5 0.534  groups 21  in_shadow 0
+   dom_struct  hop_err 2.07  top1 0.264  top5 0.642  groups 26  in_shadow 1
+   fps_all     hop_err 2.07  top1 0.264  top5 0.642  groups 26  in_shadow 1
+   dom_linear  hop_err 1.70  top1 0.253  top5 0.692  groups 27  in_shadow 1
+   linear_nocap hop_err 1.70  top1 0.253  top5 0.692  groups 27  in_shadow 1
+   greedy_lib  hop_err 1.80  top1 0.274  top5 0.658  groups 23  in_shadow 2
+budget 20% (m=11)
+   random      hop_err 1.53  top1 0.387  top5 0.798  groups 39.166666666666664  in_shadow 1.5333333333333334
+   pagerank    hop_err 1.10  top1 0.391  top5 0.877  groups 33  in_shadow 1
+   dom_struct  hop_err 0.91  top1 0.498  top5 0.864  groups 39  in_shadow 1
+   fps_all     hop_err 0.96  top1 0.508  top5 0.864  groups 42  in_shadow 2
+   dom_linear  hop_err 0.72  top1 0.570  top5 0.936  groups 41  in_shadow 1
+   linear_nocap hop_err 0.72  top1 0.570  top5 0.936  groups 41  in_shadow 1
+   greedy_lib  hop_err 0.79  top1 0.521  top5 0.913  groups 40  in_shadow 2

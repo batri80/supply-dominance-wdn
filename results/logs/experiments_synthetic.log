@@ -1,0 +1,10 @@
+synthetic: 53 junctions, testing 53 leak locations
+  20/53 leaks simulated
+  40/53 leaks simulated
+E1 {'spearman_hop_median': -0.5866172351002401, 'spearman_linear_influence_median': 0.9893685379802298, 'frac_leaks_linear_beats_hop': 1.0, 'linear_profile_R2_median': 0.997695204284482, 'linear_profile_R2_q10': 0.990880863317958}
+E2 {'n_pairs': {'merge_parents': 26, 'split_children': 19, 'hop2_via_pass': 16}, 'sensor_noise_m': 0.01, 'merge_parents': {'centred_cos_median': 0.9811628931869509, 'sibling_confusion_rate': 0.04358974358974359}, 'split_children': {'centred_cos_median': 0.9880611751895907, 'sibling_confusion_rate': 0.058771929824561406}, 'hop2_via_pass': {'centred_cos_median': 0.9999605900707929, 'sibling_confusion_rate': 0.03854166666666667}, 'localisation_by_role': {'merge': {'n': 26, 'hop_error_mean': 2.401923076923077, 'top1': 0.15}, 'split': {'n': 9, 'hop_error_mean': 2.388888888888889, 'top1': 0.2222222222222222}, 'other': {'n': 18, 'hop_error_mean': 3.4, 'top1': 0.19444444444444445}}}
+E3 {'n_shadow_nodes': 36, 'shadow_rel_influence_median': 0.9999999999808384, 'nonshadow_same_hop_median': 0.41605799243117425}
+E4a 0.0001 {'split_children': 0.021579656082497407, 'merge_parents': 0.021934454139619496, 'hop2_via_pass': 0.018360665859118188, 'random': 0.02321855029846946}
+E4a 0.0004 {'split_children': 0.11761935345436796, 'merge_parents': 0.11923916320957428, 'hop2_via_pass': 0.04717598377947915, 'random': 0.12776179094107407}
+E4a 0.001 {'split_children': 0.15168530264340094, 'merge_parents': 0.1613699769896351, 'hop2_via_pass': 0.10144612083393437, 'random': 0.11792389702168955}
+E4b {'mult_0.5': {'profile_corr_median': 0.9835075934017836, 'spread_ratio_vs_nominal_median': 1.1828376863608114}, 'mult_1.5': {'profile_corr_median': 0.8681936380545336, 'spread_ratio_vs_nominal_median': 0.567875605097116}}

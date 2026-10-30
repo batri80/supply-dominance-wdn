@@ -1,0 +1,52 @@
+{
+ "network": "ky4",
+ "scenarios": 300,
+ "censored": 6,
+ "node": {
+  "MARGIN": {
+   "top1": 0.05782312925170068,
+   "top5": 0.1292517006802721,
+   "median_dist_m": 4498.840075200001
+  },
+  "NEAREST": {
+   "top1": 0.37755102040816324,
+   "top5": 0.608843537414966,
+   "median_dist_m": 185.52718800000002
+  },
+  "DROP": {
+   "top1": 0.3707482993197279,
+   "top5": 0.6598639455782312,
+   "median_dist_m": 194.7323004
+  },
+  "NEET": {
+   "top1": 0.7074829931972789,
+   "top5": 0.8877551020408163,
+   "median_dist_m": 0.0
+  },
+  "NEET_LIN": {
+   "top1": 0.6768707482993197,
+   "top5": 0.8741496598639455,
+   "median_dist_m": 0.0
+  }
+ },
+ "size": {
+  "AT_LEAK": {
+   "median_rel_error": 1.7401526369551372,
+   "spearman": 0.8073841266963429
+  },
+  "MARGIN_MIN": {
+   "median_rel_error": Infinity,
+   "spearman": 0.3015867737356724
+  },
+  "NEET": {
+   "median_rel_error": 1.0553860090134888,
+   "spearman": 0.8727878832765125
+  }
+ },
+ "disequilibrium": {
+  "partial_spearman_psi": -0.8282820801634063,
+  "p": 1.95619918222212e-75,
+  "spearman_total": -0.40634770227990696,
+  "spearman_psi": -0.8294566017864684
+ }
+}

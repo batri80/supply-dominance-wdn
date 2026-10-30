@@ -1,0 +1,58 @@
+{
+ "ltown": {
+  "n_calibration": 296,
+  "n_test": 297,
+  "regression": {
+   "intercept": -1.1751454649774764,
+   "log_NEET_2PT": 0.6950328689484101,
+   "log_NEET_LIN": 0.21524960037711183,
+   "PSI_N": 0.04489945737972281,
+   "TOTAL": 96.7238126184243
+  },
+  "NEET_LIN": {
+   "median_rel_error": 1.8898144434057556,
+   "spearman": 0.7015771289009743,
+   "within_50pct": 0.016835016835016835
+  },
+  "NEET_2PT": {
+   "median_rel_error": 0.1071050863777055,
+   "spearman": 0.9533104999137558,
+   "within_50pct": 0.9595959595959596
+  },
+  "NEET_REG": {
+   "median_rel_error": 0.07995114752061891,
+   "spearman": 0.9637341438265198,
+   "within_50pct": 1.0
+  }
+ },
+ "ky4": {
+  "n_calibration": 290,
+  "n_test": 285,
+  "regression": {
+   "intercept": -1.4420065869122736,
+   "log_NEET_2PT": 0.4821521187665974,
+   "log_NEET_LIN": 0.3417186379613887,
+   "PSI_N": -0.034204635666241455,
+   "TOTAL": 80.9188803804
+  },
+  "NEET_LIN": {
+   "median_rel_error": 1.1235502068402021,
+   "spearman": 0.869265378166533,
+   "within_50pct": 0.1824561403508772
+  },
+  "NEET_2PT": {
+   "median_rel_error": 0.22330736128367332,
+   "spearman": 0.9114465328193242,
+   "within_50pct": 0.8035087719298246
+  },
+  "NEET_REG": {
+   "median_rel_error": 0.1376608733673661,
+   "spearman": 0.9207329446406629,
+   "within_50pct": 0.9508771929824561
+  }
+ },
+ "decision": {
+  "NEET_2PT": "solves the problem on all networks",
+  "NEET_REG": "solves the problem on all networks"
+ }
+}

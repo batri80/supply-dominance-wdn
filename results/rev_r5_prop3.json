@@ -1,0 +1,20 @@
+{
+ "shadow_entry": "J-408",
+ "shadow_size": 34,
+ "n_sensors": 35,
+ "n_outside_leaks": 923,
+ "all_inside": {
+  "max_relative_spread": 7.838152839582048e-08,
+  "median_relative_spread": 0.0,
+  "distinguishable_groups": 1,
+  "top1": 0.0010834236186348862,
+  "hop_error": 25.861321776814734
+ },
+ "half_moved_outside": {
+  "max_relative_spread": 31.83218454151198,
+  "median_relative_spread": 9.535825925985087,
+  "distinguishable_groups": 108,
+  "top1": 0.08234019501625135,
+  "hop_error": 5.360780065005417
+ }
+}

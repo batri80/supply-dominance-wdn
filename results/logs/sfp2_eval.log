@@ -1,0 +1,12 @@
+
+ltown: 296 calibration and 297 test scenarios (uncensored)
+  NEET_LIN  median relative error 1.890   Spearman 0.702   within 50% 0.02
+  NEET_2PT  median relative error 0.107   Spearman 0.953   within 50% 0.96
+  NEET_REG  median relative error 0.080   Spearman 0.964   within 50% 1.00
+
+ky4: 290 calibration and 285 test scenarios (uncensored)
+  NEET_LIN  median relative error 1.124   Spearman 0.869   within 50% 0.18
+  NEET_2PT  median relative error 0.223   Spearman 0.911   within 50% 0.80
+  NEET_REG  median relative error 0.138   Spearman 0.921   within 50% 0.95
+
+Pre-specified decision: {'NEET_2PT': 'solves the problem on all networks', 'NEET_REG': 'solves the problem on all networks'}

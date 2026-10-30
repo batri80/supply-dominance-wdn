@@ -1,0 +1,37 @@
+ltown: 100 leak junctions x 7 conditions = 700 tasks, resuming at 0, 15 workers
+  25/700  (nominal)
+  50/700  (nominal)
+  75/700  (nominal)
+  100/700  (nominal)
+  125/700  (roughness)
+  150/700  (roughness)
+  175/700  (roughness)
+  200/700  (roughness)
+  225/700  (demand)
+  250/700  (demand)
+  275/700  (demand)
+  300/700  (demand)
+  325/700  (pdd)
+  350/700  (pdd)
+  375/700  (pdd)
+  400/700  (pdd)
+  425/700  (cd)
+  450/700  (cd)
+  475/700  (cd)
+  500/700  (cd)
+  525/700  (combined)
+  550/700  (combined)
+  575/700  (combined)
+  600/700  (combined)
+  625/700  (drift)
+  650/700  (drift)
+  675/700  (drift)
+  700/700  (drift)
+  nominal   censored 1/100
+  roughness censored 1/100
+  demand    censored 1/100
+  pdd       censored 1/100
+  cd        censored 2/100
+  combined  censored 2/100
+  drift     censored 1/100
+saved

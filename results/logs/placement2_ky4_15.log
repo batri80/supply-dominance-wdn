@@ -1,0 +1,31 @@
+ky4: 959 junctions, 957 candidates, 162 maximal shadows covering 459 junctions
+ky4: simulating the evaluation library (957 leaks, 5 cm2, demand x1.2)
+ky4: 959 junctions, 957 candidates, 162 maximal shadows covering 459 junctions
+ky4: 959 junctions, 957 candidates, 162 maximal shadows covering 459 junctions
+ky4: 959 junctions, 957 candidates, 162 maximal shadows covering 459 junctions
+ky4: 959 junctions, 957 candidates, 162 maximal shadows covering 459 junctions
+ky4: 959 junctions, 957 candidates, 162 maximal shadows covering 459 junctions
+ky4: 959 junctions, 957 candidates, 162 maximal shadows covering 459 junctions
+ky4: 959 junctions, 957 candidates, 162 maximal shadows covering 459 junctions
+ky4: 959 junctions, 957 candidates, 162 maximal shadows covering 459 junctions
+ky4: 959 junctions, 957 candidates, 162 maximal shadows covering 459 junctions
+ky4: 959 junctions, 957 candidates, 162 maximal shadows covering 459 junctions
+ky4: 959 junctions, 957 candidates, 162 maximal shadows covering 459 junctions
+ky4: 959 junctions, 957 candidates, 162 maximal shadows covering 459 junctions
+ky4: 959 junctions, 957 candidates, 162 maximal shadows covering 459 junctions
+ky4: 959 junctions, 957 candidates, 162 maximal shadows covering 459 junctions
+ky4: 959 junctions, 957 candidates, 162 maximal shadows covering 459 junctions
+budget 5% (m=48)
+   library_sigma0.01    pagerank 2.53  dom_struct 2.08  fps_all 1.93  dom_linear 2.16  greedy_lib 2.11  random 2.78
+   library_sigma0.05    pagerank 3.68  dom_struct 2.86  fps_all 2.79  dom_linear 3.12  greedy_lib 2.95  random 4.00
+   linear_sigma0.01     pagerank 3.00  dom_struct 2.48  fps_all 2.30  dom_linear 2.68  greedy_lib 2.51  random 3.27
+budget 10% (m=96)
+   library_sigma0.01    pagerank 1.92  dom_struct 1.79  fps_all 1.42  dom_linear 2.03  greedy_lib 1.81  random 2.10
+   library_sigma0.05    pagerank 2.82  dom_struct 2.30  fps_all 2.03  dom_linear 2.80  greedy_lib 2.48  random 2.80
+   linear_sigma0.01     pagerank 2.56  dom_struct 2.08  fps_all 1.76  dom_linear 2.56  greedy_lib 2.26  random 2.47
+budget 20% (m=192)
+   library_sigma0.01    pagerank 1.57  dom_struct 1.77  fps_all 1.09  dom_linear 1.94  greedy_lib 1.70  random 1.56
+   library_sigma0.05    pagerank 2.16  dom_struct 2.09  fps_all 1.55  dom_linear 2.40  greedy_lib 2.15  random 1.95
+   linear_sigma0.01     pagerank 2.08  dom_struct 1.98  fps_all 1.43  dom_linear 2.55  greedy_lib 2.19  random 1.89
+
+Even spreading better than the shadow rule and PageRank at every budget: True

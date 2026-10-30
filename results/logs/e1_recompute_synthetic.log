@@ -1,0 +1,1 @@
+synthetic {'spearman_hop_median': -0.5866172351002401, 'spearman_linear_influence_median': 0.9894125719125058, 'frac_leaks_linear_beats_hop': 1.0, 'linear_profile_R2_median': 0.9976952042844821, 'linear_profile_R2_q10': 0.9908808633179593, 'frac_R2_below_0p9': 0.0}

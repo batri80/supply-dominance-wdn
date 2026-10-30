@@ -1,0 +1,25 @@
+Python 3.11.5
+  numpy      2.4.6
+  scipy      1.17.1
+  pandas     3.1.0
+  networkx   3.6.1
+  openpyxl   3.1.5
+  sklearn    1.9.1
+  wntr       1.4.0
+  torch      2.2.2
+
+Data folder:    /Users/macbookpro/Documents/psep_pipeline/data
+Outputs folder: /Users/macbookpro/Documents/psep_pipeline/outputs
+Workers:        15
+
+  L-Town network model             OK       /Users/macbookpro/Documents/psep_pipeline/data/L-TOWN.inp
+  SCADA 2018                       OK       /Users/macbookpro/Documents/psep_pipeline/data/scada/2018_SCADA.xlsx
+  SCADA 2019                       OK       /Users/macbookpro/Documents/psep_pipeline/data/scada/2019_SCADA.xlsx
+  BattLeDIM leak list              OK       /Users/macbookpro/Documents/psep_pipeline/data/BattLeDIM/Scoring Algorithm/competition_data/leakages_info.yalm
+  BattLeDIM leak flows             OK       /Users/macbookpro/Documents/psep_pipeline/data/BattLeDIM/Scoring Algorithm/competition_leakages/Leak_p257.xlsx
+  BattLeDIM reference submission   OK       /Users/macbookpro/Documents/psep_pipeline/data/BattLeDIM/Scoring Algorithm/SUBMITTED_files/PERFECT_TEAM.txt
+
+  L-Town loads: 782 junctions
+  KY4 loads:    959 junctions
+
+Setup OK.

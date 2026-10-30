@@ -1,0 +1,82 @@
+[
+ {
+  "entry": "J-408",
+  "size": 34,
+  "outside_max": 1.8442712293568917e-08,
+  "outside_median": 0.0,
+  "inside_median": 0.02551047975659229,
+  "inside_min": 0.0
+ },
+ {
+  "entry": "J-572",
+  "size": 33,
+  "outside_max": 1.8702326141644247e-08,
+  "outside_median": 0.0,
+  "inside_median": 0.021454981595866916,
+  "inside_min": 0.004565483293376736
+ },
+ {
+  "entry": "J-483",
+  "size": 24,
+  "outside_max": 0.0,
+  "outside_median": 0.0,
+  "inside_median": 0.4302028087505605,
+  "inside_min": 0.0
+ },
+ {
+  "entry": "J-611",
+  "size": 23,
+  "outside_max": 0.0,
+  "outside_median": 0.0,
+  "inside_median": 0.41348835892062374,
+  "inside_min": 0.0740726160506807
+ },
+ {
+  "entry": "J-513",
+  "size": 21,
+  "outside_max": 0.0,
+  "outside_median": 0.0,
+  "inside_median": 0.21780865224281304,
+  "inside_min": 0.0
+ },
+ {
+  "entry": "J-503",
+  "size": 21,
+  "outside_max": 0.0,
+  "outside_median": 0.0,
+  "inside_median": 0.3728455294932809,
+  "inside_min": 0.09284422451467049
+ },
+ {
+  "entry": "J-510",
+  "size": 20,
+  "outside_max": 0.0,
+  "outside_median": 0.0,
+  "inside_median": 0.20363834961941948,
+  "inside_min": 0.05499353339083375
+ },
+ {
+  "entry": "J-374",
+  "size": 19,
+  "outside_max": 0.0,
+  "outside_median": 0.0,
+  "inside_median": 0.3540651032139468,
+  "inside_min": 0.18199684557499837
+ },
+ {
+  "entry": "J-758",
+  "size": 18,
+  "outside_max": 0.0,
+  "outside_median": 0.0,
+  "inside_median": 0.00917362555401654,
+  "inside_min": 0.0
+ },
+ {
+  "entry": "J-59z",
+  "size": 18,
+  "outside_max": 0.0,
+  "outside_median": 0.0,
+  "inside_median": 0.00331457444379327,
+  "inside_min": 0.0
+ }
+]

@@ -1,0 +1,8 @@
+2018 pressures   105120 rows x  33 columns, 2018-01-01 00:00:00 to 2018-12-31 23:55:00, missing 0
+2018 demands     105120 rows x  82 columns, 2018-01-01 00:00:00 to 2018-12-31 23:55:00, missing 0
+2018 flows       105120 rows x   3 columns, 2018-01-01 00:00:00 to 2018-12-31 23:55:00, missing 0
+2018 levels      105120 rows x   1 columns, 2018-01-01 00:00:00 to 2018-12-31 23:55:00, missing 0
+2019 pressures   105120 rows x  33 columns, 2019-01-01 00:00:00 to 2019-12-31 23:55:00, missing 0
+2019 demands     105120 rows x  82 columns, 2019-01-01 00:00:00 to 2019-12-31 23:55:00, missing 0
+2019 flows       105120 rows x   3 columns, 2019-01-01 00:00:00 to 2019-12-31 23:55:00, missing 0
+2019 levels      105120 rows x   1 columns, 2019-01-01 00:00:00 to 2019-12-31 23:55:00, missing 0

@@ -1,0 +1,94 @@
+{
+ "synthetic": {
+  "fixed_outflow_dd": {
+   "common_split": {
+    "n_pairs": 9,
+    "share_nodes_extra_drop": 0.129979035639413,
+    "signed_interaction_rel_median": -0.12819789572723753,
+    "share_pairs_positive": 0.0,
+    "cross_term_share_supply": 0.10833072303179933,
+    "cross_term_share_return": 0.8032457909753103,
+    "cross_term_share_opposed": 0.08842348599289021,
+    "spearman_supply_minus_return_vs_interaction": -0.11666666666666665
+   },
+   "random": {
+    "n_pairs": 30,
+    "share_nodes_extra_drop": 0.14276729559748427,
+    "signed_interaction_rel_median": -0.08559776259710505,
+    "share_pairs_positive": 0.2,
+    "cross_term_share_supply": 0.16060260170522184,
+    "cross_term_share_return": 0.7140428038809018,
+    "cross_term_share_opposed": 0.12535459441387636,
+    "spearman_supply_minus_return_vs_interaction": 0.2947719688542826
+   }
+  },
+  "orifice_pdd": {
+   "common_split": {
+    "n_pairs": 9,
+    "share_nodes_extra_drop": 0.09643605870020963,
+    "signed_interaction_rel_median": -0.14410691091143304,
+    "share_pairs_positive": 0.0,
+    "cross_term_share_supply": 0.10896604329178876,
+    "cross_term_share_return": 0.802381007715533,
+    "cross_term_share_opposed": 0.08865294899267835,
+    "spearman_supply_minus_return_vs_interaction": 0.09999999999999999
+   },
+   "random": {
+    "n_pairs": 30,
+    "share_nodes_extra_drop": 0.08176100628930817,
+    "signed_interaction_rel_median": -0.10191545309777064,
+    "share_pairs_positive": 0.1,
+    "cross_term_share_supply": 0.16176385504847957,
+    "cross_term_share_return": 0.7121453568465697,
+    "cross_term_share_opposed": 0.12609078810495078,
+    "spearman_supply_minus_return_vs_interaction": 0.054505005561735265
+   }
+  }
+ },
+ "ky4": {
+  "fixed_outflow_dd": {
+   "common_split": {
+    "n_pairs": 30,
+    "share_nodes_extra_drop": 0.6820994091067083,
+    "signed_interaction_rel_median": 0.027399469731395475,
+    "share_pairs_positive": 0.8333333333333334,
+    "cross_term_share_supply": 0.5569470956399167,
+    "cross_term_share_return": 0.36405254966270145,
+    "cross_term_share_opposed": 0.07900035469738172,
+    "spearman_supply_minus_return_vs_interaction": 0.44293659621801995
+   },
+   "random": {
+    "n_pairs": 30,
+    "share_nodes_extra_drop": 0.5367049009384777,
+    "signed_interaction_rel_median": 0.0004927119183578634,
+    "share_pairs_positive": 0.6333333333333333,
+    "cross_term_share_supply": 0.4069738601782958,
+    "cross_term_share_return": 0.22784489147705908,
+    "cross_term_share_opposed": 0.365181248344645,
+    "spearman_supply_minus_return_vs_interaction": 0.7472747497219132
+   }
+  },
+  "orifice_pdd": {
+   "common_split": {
+    "n_pairs": 30,
+    "share_nodes_extra_drop": 0.46367744177963155,
+    "signed_interaction_rel_median": 0.0077962029013666995,
+    "share_pairs_positive": 0.6,
+    "cross_term_share_supply": 0.5326332118126585,
+    "cross_term_share_return": 0.3826648895144523,
+    "cross_term_share_opposed": 0.08470189867288908,
+    "spearman_supply_minus_return_vs_interaction": 0.5270300333704115
+   },
+   "random": {
+    "n_pairs": 30,
+    "share_nodes_extra_drop": 0.45648244699339585,
+    "signed_interaction_rel_median": 0.0003139566498006468,
+    "share_pairs_positive": 0.6,
+    "cross_term_share_supply": 0.3807766880275401,
+    "cross_term_share_return": 0.2419268450562657,
+    "cross_term_share_opposed": 0.37729646691619423,
+    "spearman_supply_minus_return_vs_interaction": 0.3815350389321468
+   }
+  }
+ }
+}

@@ -1,0 +1,3 @@
+reference rows 2160  in-sample residual std (m): 0.07569130872553136
+2019 mean |residual| first week vs last week: 0.44075420046416636 0.3997290115404405
+saved; daily shape (730, 33)

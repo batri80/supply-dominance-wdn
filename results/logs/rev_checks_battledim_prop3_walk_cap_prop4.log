@@ -1,0 +1,77 @@
+battledim:
+  battledim same_argmax: score 184,878.88, TP 13, FP 4
+    p257   incipient    start 2018-01-08 13:30  alarm 2019-05-15 23:55  delay  135.0 d   243.8 m
+    p427   incipient    start 2018-02-13 08:25  not detected
+    p810   incipient    start 2018-07-28 03:05  alarm 2019-07-12 23:55  delay  193.0 d     0.0 m
+    p654   incipient    start 2018-07-05 03:40  alarm 2019-06-13 23:55  delay  164.0 d   148.4 m
+    p523   abrupt       start 2019-01-15 23:00  alarm 2019-01-21 23:55  delay    6.0 d   107.7 m
+    p827   abrupt       start 2019-01-24 18:30  alarm 2019-02-04 23:55  delay   11.2 d   101.7 m
+    p280   abrupt       start 2019-02-10 13:05  not detected
+    p653   incipient    start 2019-03-03 13:10  not detected
+    p710   abrupt       start 2019-03-24 14:15  alarm 2019-03-29 23:55  delay    5.4 d   167.9 m
+    p514   abrupt       start 2019-04-02 20:40  alarm 2019-04-12 23:55  delay   10.1 d    51.4 m
+    p331   abrupt       start 2019-04-20 10:10  not detected
+    p193   incipient    start 2019-05-19 10:40  alarm 2019-12-06 23:55  delay  201.6 d   131.3 m
+    p277   incipient    start 2019-05-30 21:55  alarm 2019-07-26 23:55  delay   57.1 d   150.8 m
+    p142   abrupt       start 2019-06-12 19:55  not detected
+    p680   abrupt       start 2019-07-10 08:45  not detected
+    p586   incipient    start 2019-07-26 14:40  alarm 2019-08-24 23:55  delay   29.4 d   220.8 m
+    p721   incipient    start 2019-08-02 03:00  not detected
+    p800   incipient    start 2019-08-16 14:00  alarm 2019-09-07 23:55  delay   22.4 d   121.7 m
+    p123   incipient    start 2019-09-13 20:05  alarm 2019-10-19 23:55  delay   36.2 d   295.3 m
+    p455   incipient    start 2019-10-03 14:00  not detected
+    p762   incipient    start 2019-10-09 10:15  not detected
+    p426   abrupt       start 2019-10-25 13:25  alarm 2019-11-02 23:55  delay    8.4 d    98.8 m
+    p879   incipient    start 2019-11-20 11:55  not detected
+    false alarm 2019-02-18 23:55 at p385
+    false alarm 2019-04-26 23:55 at p350
+    false alarm 2019-05-29 23:55 at p739
+    false alarm 2019-10-05 23:55 at p385
+  battledim strict_argmax: score 148,567.46, TP 11, FP 3
+    p257   incipient    start 2018-01-08 13:30  alarm 2019-08-01 23:55  delay  213.0 d   160.1 m
+    p427   incipient    start 2018-02-13 08:25  not detected
+    p810   incipient    start 2018-07-28 03:05  not detected
+    p654   incipient    start 2018-07-05 03:40  alarm 2019-06-15 23:55  delay  166.0 d   148.4 m
+    p523   abrupt       start 2019-01-15 23:00  alarm 2019-01-21 23:55  delay    6.0 d   107.7 m
+    p827   abrupt       start 2019-01-24 18:30  alarm 2019-02-04 23:55  delay   11.2 d   101.7 m
+    p280   abrupt       start 2019-02-10 13:05  not detected
+    p653   incipient    start 2019-03-03 13:10  not detected
+    p710   abrupt       start 2019-03-24 14:15  alarm 2019-07-15 23:55  delay  113.4 d   262.0 m
+    p514   abrupt       start 2019-04-02 20:40  alarm 2019-04-16 23:55  delay   14.1 d    51.4 m
+    p331   abrupt       start 2019-04-20 10:10  not detected
+    p193   incipient    start 2019-05-19 10:40  alarm 2019-05-29 23:55  delay   10.6 d   212.0 m
+    p277   incipient    start 2019-05-30 21:55  not detected
+    p142   abrupt       start 2019-06-12 19:55  not detected
+    p680   abrupt       start 2019-07-10 08:45  not detected
+    p586   incipient    start 2019-07-26 14:40  alarm 2019-08-27 23:55  delay   32.4 d   220.8 m
+    p721   incipient    start 2019-08-02 03:00  not detected
+    p800   incipient    start 2019-08-16 14:00  alarm 2019-09-10 23:55  delay   25.4 d   121.7 m
+    p123   incipient    start 2019-09-13 20:05  alarm 2019-10-08 23:55  delay   25.2 d   295.3 m
+    p455   incipient    start 2019-10-03 14:00  not detected
+    p762   incipient    start 2019-10-09 10:15  not detected
+    p426   abrupt       start 2019-10-25 13:25  alarm 2019-10-29 23:55  delay    4.4 d    98.8 m
+    p879   incipient    start 2019-11-20 11:55  not detected
+    false alarm 2019-02-18 23:55 at p385
+    false alarm 2019-04-30 23:55 at p350
+    false alarm 2019-09-24 23:55 at p778
+prop3:
+  prop3 all_inside: spread max 7.84e-08, groups 1/923, top-1 0.001, hop error 25.86
+  prop3 half_moved_outside: spread max 3.18e+01, groups 108/923, top-1 0.082, hop error 5.36
+walk:
+  walk leak G3_0: T1 G 0.047 MC 0.049 sim1 0.037 sim10 0.031; A1 G 0.263 MC 0.261 sim1 0.249 sim10 0.208; M G 0.423 MC 0.418 sim1 0.415 sim10 0.348; G0_2 G 0.483 MC 0.485 sim1 0.479 sim10 0.401; G2_3 G 0.727 MC 0.726 sim1 0.742 sim10 0.609; G3_0 G 1.000 MC 1.000 sim1 1.000 sim10 1.000; G5_5 G 0.177 MC 0.179 sim1 0.181 sim10 0.141; D0 G 1.000 MC 1.000 sim1 1.000 sim10 1.000; D7 G 1.000 MC 1.000 sim1 1.000 sim10 1.000
+  walk leak G2_3: T1 G 0.056 MC 0.058 sim1 0.043 sim10 0.042; A1 G 0.311 MC 0.308 sim1 0.291 sim10 0.280; M G 0.500 MC 0.500 sim1 0.486 sim10 0.468; G0_2 G 0.572 MC 0.571 sim1 0.560 sim10 0.540; G2_3 G 1.000 MC 1.000 sim1 1.000 sim10 1.000; G3_0 G 0.788 MC 0.791 sim1 0.786 sim10 0.732; G5_5 G 0.185 MC 0.183 sim1 0.184 sim10 0.169; D0 G 0.788 MC 0.786 sim1 0.786 sim10 0.732; D7 G 0.788 MC 0.788 sim1 0.786 sim10 0.732
+  walk leak A1: T1 G 0.127 MC 0.126 sim1 0.102 sim10 0.101; A1 G 1.000 MC 1.000 sim1 1.000 sim10 1.000; M G 0.569 MC 0.562 sim1 0.558 sim10 0.576; G0_2 G 0.516 MC 0.509 sim1 0.506 sim10 0.520; G2_3 G 0.282 MC 0.282 sim1 0.276 sim10 0.274; G3_0 G 0.259 MC 0.258 sim1 0.251 sim10 0.246; G5_5 G 0.059 MC 0.057 sim1 0.057 sim10 0.056; D0 G 0.259 MC 0.252 sim1 0.251 sim10 0.246; D7 G 0.259 MC 0.265 sim1 0.251 sim10 0.246
+  walk leak D3: T1 G 0.004 MC 0.005 sim1 0.003 sim10 0.001; A1 G 0.025 MC 0.025 sim1 0.020 sim10 0.010; M G 0.040 MC 0.038 sim1 0.033 sim10 0.016; G0_2 G 0.045 MC 0.046 sim1 0.038 sim10 0.019; G2_3 G 0.068 MC 0.067 sim1 0.060 sim10 0.029; G3_0 G 0.094 MC 0.098 sim1 0.080 sim10 0.043; G5_5 G 0.017 MC 0.016 sim1 0.015 sim10 0.007; D0 G 0.368 MC 0.366 sim1 0.352 sim10 0.306; D7 G 1.000 MC 1.000 sim1 1.000 sim10 1.000
+cap:
+  cap synthetic: 0.01: Spearman 0.930, R2 0.884; 0.1: Spearman 0.995, R2 0.999; 1.0: Spearman 0.997, R2 1.000; 10.0: Spearman 0.997, R2 1.000
+  cap ky4: 0.01: Spearman 0.984, R2 0.872, within 300 m 0.376; 0.1: Spearman 0.991, R2 0.983, within 300 m 0.460; 1.0: Spearman 0.999, R2 1.000, within 300 m 0.466; 10.0: Spearman 0.999, R2 1.000, within 300 m 0.448
+  cap ltown: 0.01: Spearman 0.875, R2 0.821, within 300 m 0.715; 0.1: Spearman 0.894, R2 0.851, within 300 m 0.750; 1.0: Spearman 0.896, R2 0.859, within 300 m 0.770; 10.0: Spearman 0.898, R2 0.860, within 300 m 0.775
+prop4:
+  prop4 synthetic fixed_outflow_dd common_split: signed interaction -0.128 (positive in 0% of pairs); cross term on supply 0.11, return 0.80, opposed 0.09; Spearman(supply-return, interaction) -0.12
+  prop4 synthetic fixed_outflow_dd random      : signed interaction -0.086 (positive in 20% of pairs); cross term on supply 0.16, return 0.71, opposed 0.13; Spearman(supply-return, interaction) +0.29
+  prop4 synthetic orifice_pdd      common_split: signed interaction -0.144 (positive in 0% of pairs); cross term on supply 0.11, return 0.80, opposed 0.09; Spearman(supply-return, interaction) +0.10
+  prop4 synthetic orifice_pdd      random      : signed interaction -0.102 (positive in 10% of pairs); cross term on supply 0.16, return 0.71, opposed 0.13; Spearman(supply-return, interaction) +0.05
+  prop4 ky4 fixed_outflow_dd       common_split: signed interaction +0.027 (positive in 83% of pairs); cross term on supply 0.56, return 0.36, opposed 0.08; Spearman(supply-return, interaction) +0.44
+  prop4 ky4 fixed_outflow_dd       random      : signed interaction +0.000 (positive in 63% of pairs); cross term on supply 0.41, return 0.23, opposed 0.37; Spearman(supply-return, interaction) +0.75
+  prop4 ky4 orifice_pdd            common_split: signed interaction +0.008 (positive in 60% of pairs); cross term on supply 0.53, return 0.38, opposed 0.08; Spearman(supply-return, interaction) +0.53
+  prop4 ky4 orifice_pdd            random      : signed interaction +0.000 (positive in 60% of pairs); cross term on supply 0.38, return 0.24, opposed 0.38; Spearman(supply-return, interaction) +0.38

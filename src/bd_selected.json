@@ -1,0 +1,6 @@
+{
+ "primary_medoid":   {"theta": 0.08, "delta": 0.002, "method": "medoid", "k0": 4, "min_gain": 0.05, "reset_on_repair": false, "series": "daily"},
+ "same_argmax":      {"theta": 0.08, "delta": 0.002, "method": "argmax", "k0": 4, "min_gain": 0.05, "reset_on_repair": false, "series": "daily"},
+ "strict_medoid":    {"theta": 0.16, "delta": 0.002, "method": "medoid", "k0": 4, "min_gain": 0.05, "reset_on_repair": false, "series": "daily"},
+ "strict_argmax":    {"theta": 0.16, "delta": 0.002, "method": "argmax", "k0": 4, "min_gain": 0.05, "reset_on_repair": false, "series": "daily"}
+}

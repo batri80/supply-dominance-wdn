@@ -1,0 +1,18 @@
+training gnn_plain
+    epoch 10: loss 5.675
+    epoch 20: loss 5.673
+    epoch 30: loss 5.680
+training hybrid
+    epoch 10: loss 4.538
+    epoch 20: loss 4.464
+    epoch 30: loss 4.405
+training hybrid_nodom
+    epoch 10: loss 4.604
+    epoch 20: loss 4.563
+    epoch 30: loss 4.523
+nearest_sensor  top1 0.052 top5 0.056 median 197 m  <=300m 0.701 | single 0.669 concurrent 0.768 | small 0.608 large 0.731
+graph_interp    top1 0.052 top5 0.239 median 197 m  <=300m 0.701 | single 0.669 concurrent 0.768 | small 0.608 large 0.731
+linear          top1 0.068 top5 0.301 median 166 m  <=300m 0.751 | single 0.814 concurrent 0.624 | small 0.747 large 0.752
+gnn_plain       top1 0.046 top5 0.204 median 218 m  <=300m 0.665 | single 0.631 concurrent 0.734 | small 0.572 large 0.695
+hybrid          top1 0.087 top5 0.340 median 168 m  <=300m 0.791 | single 0.847 concurrent 0.677 | small 0.773 large 0.797
+hybrid_nodom    top1 0.075 top5 0.312 median 172 m  <=300m 0.780 | single 0.795 concurrent 0.749 | small 0.711 large 0.802

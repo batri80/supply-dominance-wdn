@@ -1,0 +1,20 @@
+
+ltown: calibration 296, test 297, censored {'cal': 4, 'test': 3}
+  coefficients: intercept -1.175 (0.076), log_NEET_2PT +0.695 (0.019), log_NEET_LIN +0.215 (0.030), PSI_N +0.045 (0.024), TOTAL +96.724 (14.513)
+  NEET-2PT 0.107   NEET-REG 0.080   transfer 0.194   pooled 0.100
+  learning curve (median rel. error): n=10: 0.094, n=20: 0.082, n=40: 0.079, n=80: 0.077, n=160: 0.078, n=296: 0.080
+  exponent bounds: [0.5,3] 0.107, [0.25,5] 0.107, none 0.107;  drops < 1 mm excluded 0.107
+  estimate from a clipped fit in 0.0% of scenarios; 22.9% of junction fits clipped on average
+  first failing junction: top-1 0.79, with near-ties 0.85, top-5 0.89
+  NEET-2PT by A* tercile: low (9-42 cm2) 0.101, mid (42-58 cm2) 0.095, high (59-116 cm2) 0.150
+  censored scenarios predicted to fail below 200 cm2: 0.0
+
+ky4: calibration 290, test 285, censored {'cal': 10, 'test': 15}
+  coefficients: intercept -1.442 (0.120), log_NEET_2PT +0.482 (0.031), log_NEET_LIN +0.342 (0.046), PSI_N -0.034 (0.018), TOTAL +80.919 (25.004)
+  NEET-2PT 0.223   NEET-REG 0.138   transfer 0.158   pooled 0.120
+  learning curve (median rel. error): n=10: 0.211, n=20: 0.172, n=40: 0.155, n=80: 0.143, n=160: 0.144, n=290: 0.138
+  exponent bounds: [0.5,3] 0.223, [0.25,5] 0.223, none 0.223;  drops < 1 mm excluded 0.223
+  estimate from a clipped fit in 0.0% of scenarios; 0.0% of junction fits clipped on average
+  first failing junction: top-1 0.79, with near-ties 0.85, top-5 0.93
+  NEET-2PT by A* tercile: low (4-33 cm2) 0.147, mid (34-70 cm2) 0.309, high (74-199 cm2) 0.253
+  censored scenarios predicted to fail below 200 cm2: 0.04

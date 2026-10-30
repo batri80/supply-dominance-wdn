@@ -1,0 +1,225 @@
+{
+  "network": "ltown",
+  "n_junctions": 782,
+  "n_candidates": 782,
+  "n_maximal_shadows": 22,
+  "junctions_in_shadows": 160,
+  "sigma_m": 0.01,
+  "budgets": {
+    "33 sensors (utility budget)": {
+      "m": 33,
+      "random": {
+        "hop_error": 4.646023017902812,
+        "top1": 0.13145780051150896,
+        "top5": 0.4277877237851662,
+        "distinguishable_groups": 130.7,
+        "sensors_in_shadows": 6.1
+      },
+      "utility_layout": {
+        "hop_error": 3.4731457800511505,
+        "top1": 0.16764705882352943,
+        "top5": 0.5062659846547315,
+        "distinguishable_groups": 160,
+        "sensors_in_shadows": 6
+      },
+      "pagerank": {
+        "hop_error": 6.083375959079284,
+        "top1": 0.08900255754475703,
+        "top5": 0.31841432225063937,
+        "distinguishable_groups": 74,
+        "sensors_in_shadows": 9
+      },
+      "dom_struct": {
+        "hop_error": 4.080179028132993,
+        "top1": 0.1551150895140665,
+        "top5": 0.47352941176470587,
+        "distinguishable_groups": 156,
+        "sensors_in_shadows": 6
+      },
+      "fps_all": {
+        "hop_error": 3.4069053708439894,
+        "top1": 0.18056265984654735,
+        "top5": 0.5075447570332481,
+        "distinguishable_groups": 141,
+        "sensors_in_shadows": 16
+      },
+      "dom_linear": {
+        "hop_error": 4.2601023017902815,
+        "top1": 0.150383631713555,
+        "top5": 0.4613810741687979,
+        "distinguishable_groups": 155,
+        "sensors_in_shadows": 5
+      },
+      "linear_nocap": {
+        "hop_error": 3.563682864450128,
+        "top1": 0.1621483375959079,
+        "top5": 0.48618925831202037,
+        "distinguishable_groups": 144,
+        "sensors_in_shadows": 10
+      },
+      "greedy_lib": {
+        "hop_error": 3.2313299232736576,
+        "top1": 0.17327365728900254,
+        "top5": 0.5057544757033249,
+        "distinguishable_groups": 160,
+        "sensors_in_shadows": 15
+      }
+    },
+    "5%": {
+      "m": 39,
+      "random": {
+        "hop_error": 3.887583120204604,
+        "top1": 0.1495524296675192,
+        "top5": 0.46076726342710994,
+        "distinguishable_groups": 127.3,
+        "sensors_in_shadows": 8.0
+      },
+      "pagerank": {
+        "hop_error": 5.6138107416879794,
+        "top1": 0.1129156010230179,
+        "top5": 0.3649616368286445,
+        "distinguishable_groups": 77,
+        "sensors_in_shadows": 13
+      },
+      "dom_struct": {
+        "hop_error": 3.867647058823529,
+        "top1": 0.17020460358056266,
+        "top5": 0.5124040920716112,
+        "distinguishable_groups": 164,
+        "sensors_in_shadows": 6
+      },
+      "fps_all": {
+        "hop_error": 3.0829923273657287,
+        "top1": 0.20358056265984653,
+        "top5": 0.5703324808184143,
+        "distinguishable_groups": 157,
+        "sensors_in_shadows": 18
+      },
+      "dom_linear": {
+        "hop_error": 3.8936061381074167,
+        "top1": 0.1827365728900256,
+        "top5": 0.5154731457800512,
+        "distinguishable_groups": 165,
+        "sensors_in_shadows": 5
+      },
+      "linear_nocap": {
+        "hop_error": 3.2962915601023015,
+        "top1": 0.17915601023017902,
+        "top5": 0.539002557544757,
+        "distinguishable_groups": 150,
+        "sensors_in_shadows": 12
+      },
+      "greedy_lib": {
+        "hop_error": 3.0019181585677748,
+        "top1": 0.19219948849104856,
+        "top5": 0.5498721227621484,
+        "distinguishable_groups": 176,
+        "sensors_in_shadows": 16
+      }
+    },
+    "10%": {
+      "m": 78,
+      "random": {
+        "hop_error": 2.517033248081842,
+        "top1": 0.2573913043478261,
+        "top5": 0.655383631713555,
+        "distinguishable_groups": 166.2,
+        "sensors_in_shadows": 16.5
+      },
+      "pagerank": {
+        "hop_error": 2.960102301790281,
+        "top1": 0.21150895140664963,
+        "top5": 0.6113810741687979,
+        "distinguishable_groups": 114,
+        "sensors_in_shadows": 20
+      },
+      "dom_struct": {
+        "hop_error": 2.9918158567774937,
+        "top1": 0.2820971867007673,
+        "top5": 0.6673913043478261,
+        "distinguishable_groups": 228,
+        "sensors_in_shadows": 6
+      },
+      "fps_all": {
+        "hop_error": 1.907928388746803,
+        "top1": 0.3327365728900256,
+        "top5": 0.7516624040920716,
+        "distinguishable_groups": 214,
+        "sensors_in_shadows": 32
+      },
+      "dom_linear": {
+        "hop_error": 3.1089514066496164,
+        "top1": 0.26764705882352946,
+        "top5": 0.6450127877237851,
+        "distinguishable_groups": 184,
+        "sensors_in_shadows": 5
+      },
+      "linear_nocap": {
+        "hop_error": 2.2469309462915605,
+        "top1": 0.27736572890025574,
+        "top5": 0.7047314578005114,
+        "distinguishable_groups": 177,
+        "sensors_in_shadows": 21
+      },
+      "greedy_lib": {
+        "hop_error": 1.9933503836317137,
+        "top1": 0.3008951406649617,
+        "top5": 0.7253196930946292,
+        "distinguishable_groups": 187,
+        "sensors_in_shadows": 26
+      }
+    },
+    "20%": {
+      "m": 156,
+      "random": {
+        "hop_error": 1.5593606138107416,
+        "top1": 0.4043350383631714,
+        "top5": 0.8355370843989769,
+        "distinguishable_groups": 200.5,
+        "sensors_in_shadows": 33.2
+      },
+      "pagerank": {
+        "hop_error": 1.692071611253197,
+        "top1": 0.34207161125319696,
+        "top5": 0.8097186700767264,
+        "distinguishable_groups": 156,
+        "sensors_in_shadows": 29
+      },
+      "dom_struct": {
+        "hop_error": 2.2552429667519176,
+        "top1": 0.4101023017902813,
+        "top5": 0.7852941176470589,
+        "distinguishable_groups": 259,
+        "sensors_in_shadows": 6
+      },
+      "fps_all": {
+        "hop_error": 1.188235294117647,
+        "top1": 0.4836317135549872,
+        "top5": 0.8800511508951407,
+        "distinguishable_groups": 248,
+        "sensors_in_shadows": 48
+      },
+      "dom_linear": {
+        "hop_error": 2.5978260869565215,
+        "top1": 0.3578005115089514,
+        "top5": 0.74846547314578,
+        "distinguishable_groups": 195,
+        "sensors_in_shadows": 5
+      },
+      "linear_nocap": {
+        "hop_error": 1.6149616368286446,
+        "top1": 0.36611253196930943,
+        "top5": 0.8269820971867008,
+        "distinguishable_groups": 166,
+        "sensors_in_shadows": 35
+      },
+      "greedy_lib": {
+        "hop_error": 1.4615089514066495,
+        "top1": 0.41035805626598465,
+        "top5": 0.8345268542199488,
+        "distinguishable_groups": 183,
+        "sensors_in_shadows": 58
+      }
+    }
+  }
+}

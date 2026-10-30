@@ -1,0 +1,122 @@
+ltown: 33 sensors, 3000 training and 800 test scenarios, 5 seeds, 30 epochs
+  nearest_sensor  within 300 m 0.701
+  graph_interp    within 300 m 0.701
+  linear          within 300 m 0.750
+      gnn_plain seed 0 epoch 10: loss 4.7948
+      gnn_plain seed 0 epoch 20: loss 4.7752
+      gnn_plain seed 0 epoch 30: loss 4.7390
+  seed 0 gnn_plain      within 300 m 0.576
+      reconstructor seed 0 epoch 10: loss 0.0068
+      reconstructor seed 0 epoch 20: loss 0.0069
+      reconstructor seed 0 epoch 30: loss 0.0068
+  seed 0 reconstructor  within 300 m 0.691
+      physics_loss seed 0 epoch 10: loss 0.0070
+      physics_loss seed 0 epoch 20: loss 0.0070
+      physics_loss seed 0 epoch 30: loss 0.0070
+  seed 0 physics_loss   within 300 m 0.662
+  seed 0 physics_loss_outflow within 300 m 0.188
+      hybrid_nodom seed 0 epoch 10: loss 4.4519
+      hybrid_nodom seed 0 epoch 20: loss 4.4184
+      hybrid_nodom seed 0 epoch 30: loss 4.4028
+  seed 0 hybrid_nodom   within 300 m 0.802
+      hybrid seed 0 epoch 10: loss 4.3471
+      hybrid seed 0 epoch 20: loss 4.3065
+      hybrid seed 0 epoch 30: loss 4.2421
+  seed 0 hybrid         within 300 m 0.760
+      gnn_plain seed 1 epoch 10: loss 4.7912
+      gnn_plain seed 1 epoch 20: loss 4.7756
+      gnn_plain seed 1 epoch 30: loss 4.7636
+  seed 1 gnn_plain      within 300 m 0.589
+      reconstructor seed 1 epoch 10: loss 0.0069
+      reconstructor seed 1 epoch 20: loss 0.0069
+      reconstructor seed 1 epoch 30: loss 0.0069
+  seed 1 reconstructor  within 300 m 0.649
+      physics_loss seed 1 epoch 10: loss 0.0070
+      physics_loss seed 1 epoch 20: loss 0.0071
+      physics_loss seed 1 epoch 30: loss 0.0070
+  seed 1 physics_loss   within 300 m 0.652
+  seed 1 physics_loss_outflow within 300 m 0.184
+      hybrid_nodom seed 1 epoch 10: loss 4.4554
+      hybrid_nodom seed 1 epoch 20: loss 4.4274
+      hybrid_nodom seed 1 epoch 30: loss 4.4176
+  seed 1 hybrid_nodom   within 300 m 0.789
+      hybrid seed 1 epoch 10: loss 4.3228
+      hybrid seed 1 epoch 20: loss 4.2659
+      hybrid seed 1 epoch 30: loss 4.1902
+  seed 1 hybrid         within 300 m 0.779
+      gnn_plain seed 2 epoch 10: loss 4.7633
+      gnn_plain seed 2 epoch 20: loss 4.7323
+      gnn_plain seed 2 epoch 30: loss 4.7041
+  seed 2 gnn_plain      within 300 m 0.615
+      reconstructor seed 2 epoch 10: loss 0.0069
+      reconstructor seed 2 epoch 20: loss 0.0068
+      reconstructor seed 2 epoch 30: loss 0.0067
+  seed 2 reconstructor  within 300 m 0.657
+      physics_loss seed 2 epoch 10: loss 0.0071
+      physics_loss seed 2 epoch 20: loss 0.0070
+      physics_loss seed 2 epoch 30: loss 0.0070
+  seed 2 physics_loss   within 300 m 0.665
+  seed 2 physics_loss_outflow within 300 m 0.186
+      hybrid_nodom seed 2 epoch 10: loss 4.5112
+      hybrid_nodom seed 2 epoch 20: loss 4.4714
+      hybrid_nodom seed 2 epoch 30: loss 4.4371
+  seed 2 hybrid_nodom   within 300 m 0.800
+      hybrid seed 2 epoch 10: loss 4.3483
+      hybrid seed 2 epoch 20: loss 4.3008
+      hybrid seed 2 epoch 30: loss 4.2204
+  seed 2 hybrid         within 300 m 0.799
+      gnn_plain seed 3 epoch 10: loss 4.7939
+      gnn_plain seed 3 epoch 20: loss 4.7828
+      gnn_plain seed 3 epoch 30: loss 4.7762
+  seed 3 gnn_plain      within 300 m 0.596
+      reconstructor seed 3 epoch 10: loss 0.0069
+      reconstructor seed 3 epoch 20: loss 0.0070
+      reconstructor seed 3 epoch 30: loss 0.0069
+  seed 3 reconstructor  within 300 m 0.637
+      physics_loss seed 3 epoch 10: loss 0.0071
+      physics_loss seed 3 epoch 20: loss 0.0071
+      physics_loss seed 3 epoch 30: loss 0.0071
+  seed 3 physics_loss   within 300 m 0.639
+  seed 3 physics_loss_outflow within 300 m 0.185
+      hybrid_nodom seed 3 epoch 10: loss 4.4695
+      hybrid_nodom seed 3 epoch 20: loss 4.4137
+      hybrid_nodom seed 3 epoch 30: loss 4.4055
+  seed 3 hybrid_nodom   within 300 m 0.800
+      hybrid seed 3 epoch 10: loss 4.3094
+      hybrid seed 3 epoch 20: loss 4.2386
+      hybrid seed 3 epoch 30: loss 4.1893
+  seed 3 hybrid         within 300 m 0.801
+      gnn_plain seed 4 epoch 10: loss 4.7909
+      gnn_plain seed 4 epoch 20: loss 4.7732
+      gnn_plain seed 4 epoch 30: loss 4.7255
+  seed 4 gnn_plain      within 300 m 0.641
+      reconstructor seed 4 epoch 10: loss 0.0069
+      reconstructor seed 4 epoch 20: loss 0.0068
+      reconstructor seed 4 epoch 30: loss 0.0068
+  seed 4 reconstructor  within 300 m 0.672
+      physics_loss seed 4 epoch 10: loss 0.0070
+      physics_loss seed 4 epoch 20: loss 0.0070
+      physics_loss seed 4 epoch 30: loss 0.0070
+  seed 4 physics_loss   within 300 m 0.667
+  seed 4 physics_loss_outflow within 300 m 0.186
+      hybrid_nodom seed 4 epoch 10: loss 4.4738
+      hybrid_nodom seed 4 epoch 20: loss 4.4351
+      hybrid_nodom seed 4 epoch 30: loss 4.4164
+  seed 4 hybrid_nodom   within 300 m 0.790
+      hybrid seed 4 epoch 10: loss 4.3360
+      hybrid seed 4 epoch 20: loss 4.2747
+      hybrid seed 4 epoch 30: loss 4.2021
+  seed 4 hybrid         within 300 m 0.743
+
+ltown: share within 300 m, mean [95% interval] over 5 seeds
+  nearest_sensor  0.701
+  graph_interp    0.701
+  linear          0.750
+  gnn_plain       0.603 [0.572, 0.635]
+  reconstructor   0.661 [0.635, 0.688]
+  physics_loss    0.657 [0.643, 0.672]
+  physics_loss_outflow 0.186 [0.184, 0.188]
+  hybrid_nodom    0.796 [0.788, 0.804]
+  hybrid          0.776 [0.745, 0.808]
+  diff_hybrid_minus_linear   +0.026 [-0.005, +0.058]
+  diff_hybrid_minus_nodom    -0.020 [-0.049, +0.009]
