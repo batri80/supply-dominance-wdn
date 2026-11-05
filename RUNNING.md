@@ -1,9 +1,11 @@
 # Running the experiments
 
-Code for the experiments behind the planned Process Safety and Environmental Protection
-paper (VSI: Intelligent Asset) on supply structure, leak localisation and service-failure
-prediction in pipeline networks. Every result in the framework document can be
-regenerated with this folder.
+Code for the experiments behind the paper on supply dominance, leak identifiability and
+service-failure prediction in water distribution networks (Krishnan and S, submitted to the
+Journal of Water Resources Planning and Management). Every result in the paper can be
+regenerated with this folder. The folder may be named `psep_pipeline` (local copy) or
+`supply-dominance-wdn` (cloned repository); the commands are the same. The environment
+variables keep their historical `PSEP_` prefix.
 
 ## 1. Install (once)
 

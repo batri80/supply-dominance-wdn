@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this code, please cite the paper."
-title: "Physics-first intelligent pipeline asset management: supply dominance, leak localisation and service-failure prediction (code and results)"
+title: "Supply Dominance, Leak Identifiability and Service-Failure Prediction in Water Distribution Networks (code and results)"
 authors:
   - family-names: Krishnan
     given-names: Batri
@@ -8,14 +8,6 @@ authors:
   - family-names: S
     given-names: Lakshmi
     orcid: "https://orcid.org/0000-0003-2317-9552"
-  - family-names: Khan
-    given-names: Surbhi B.
-  - family-names: Alfayez
-    given-names: Fayez
-  - family-names: Almutairi
-    given-names: Alhanof
-  - family-names: Almusharraf
-    given-names: Ahlam
 license: MIT
-repository-code: "https://github.com/batri80/psep-supply-dominance"
-date-released: 2026-10-30
+repository-code: "https://github.com/batri80/supply-dominance-wdn"
+date-released: 2026-11-04

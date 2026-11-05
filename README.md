@@ -1,14 +1,14 @@
-# Supply dominance, leak localisation and service-failure prediction
+# Supply dominance, leak identifiability and service-failure prediction
 
-Code, pre-specified protocols and results for the paper
+Code, pre-specified protocols, results and Supplemental Materials for the paper
 
-> **Physics-first intelligent pipeline asset management: supply dominance, leak localisation and service-failure prediction**
-> Batri Krishnan, Lakshmi S, Surbhi B. Khan, Fayez Alfayez, Alhanof Almutairi, Ahlam Almusharraf.
-> Submitted to *Process Safety and Environmental Protection*, special issue "Intelligent Asset Management for Process Safety and Environmental Protection".
+> **Supply Dominance, Leak Identifiability and Service-Failure Prediction in Water Distribution Networks**
+> Batri Krishnan and Lakshmi S. Submitted to the *Journal of Water Resources Planning and Management* (ASCE).
 
 Every table and figure in the paper can be regenerated from this repository. The results
 reported in the paper are stored in `results/` together with the run logs, so they can be
-checked without rerunning anything.
+checked without rerunning anything. The Supplemental Materials (Tables S1–S7, Fig. S1) are in
+`supplement/Supplemental_Materials.pdf`.
 
 ## Contents
 
@@ -16,7 +16,8 @@ checked without rerunning anything.
 | --- | --- |
 | `src/` | All experiment scripts, and the pre-specified protocols (`*_protocol.md`) |
 | `run_all.py` | Runs the experiments in stages, with logs |
-| `scripts/make_figures.py` | Produces Figures 2 to 5 |
+| `scripts/make_figures.py` | Produces the figures (Figures 1–3 and Fig. S1 of the paper) |
+| `supplement/` | Supplemental Materials (Tables S1–S7, Fig. S1) |
 | `results/` | Result files (JSON) and run logs of the runs reported in the paper |
 | `data/L-TOWN.inp` | BattLeDIM L-Town nominal model (EUPL licence, KIOS Research and Innovation Center of Excellence) |
 | `RUNNING.md` | Installation, data download, stages and run times |
@@ -41,23 +42,21 @@ The BattLeDIM SCADA files and the organisers' repository are not redistributed h
 
 | Paper item | Stage (`run_all.py`) | Script | Result file in `results/` |
 | --- | --- | --- | --- |
-| Table 4 (prototype tests) | `prototype` | `experiments.py`, `e1_recompute.py` | `results_synthetic.json`, `results_ky4.json` |
-| Table 5 (worked example, Prop. 2) | `rev_checks` | `rev_checks.py walk` | `rev_r5_walk.json` |
-| Table 6 (concurrent-leak interaction, Prop. 4) | `rev_checks` | `rev_checks.py prop4` | `rev_r5_prop4.json` |
-| Isolability limit (Prop. 3, Sec. 7.1) | `placement`, `rev_checks` | `prop3_check.py`, `rev_checks.py prop3` | `prop3_check_ky4.json`, `rev_r5_prop3.json` |
-| Conductance-cap sensitivity (Sec. 7.1) | `rev_checks` | `rev_checks.py cap` | `rev_r5_cap.json` |
-| Table 7 (placement), selection library | `placement` | `placement.py` | `placement_ky4.json`, `placement_ltown.json` |
-| Table 7 (placement), independent library | `rev_placement` | `placement2.py` | `rev_r2_placement_ky4.json`, `rev_r2_placement_ltown.json` |
-| Table 8, Figure 3 (localiser X1) | `ext_localiser` | `localiser2.py` | `ext_localiser_ltown.json`, `ext_localiser_ky4.json` |
-| Table 9 (localiser R3, bootstrap) | `rev_localiser` | `localiser3.py` | `rev_r3_ltown.json`, `rev_r3_ky4.json` |
-| Table 10 (BattLeDIM) and per-leak delays | `battledim`, `rev_checks` | `bd_detect.py`, `rev_checks.py battledim` | `bd_results_2019.json`, `rev_r5_battledim.json` |
-| Table 11 (first service-failure experiment) | `service_failure` | `sfp_eval.py` | `sfp_results_ltown.json`, `sfp_results_ky4.json` |
-| Table 12, Figure 4 (failure size X2) | `ext_failure` | `sfp2_eval.py` | `ext_failure_size.json` |
-| Table 13 (NEET-REG generalisation) | `rev_failure_checks` | `sfp2_gen.py` | `rev_r4_failure_checks.json` |
-| Table 14, Figure 5 (robustness R1) | `rev_robustness` | `sfp3_eval.py`, `rev_r1_ci.py` | `rev_r1_results.json`, `rev_r1_ci.json` |
-| Figure 2 | | `scripts/make_figures.py` | simulated directly |
+| Table 1 (prototype tests), Fig. 1 | `prototype` | `experiments.py`, `e1_recompute.py`; `scripts/make_figures.py` | `results_synthetic.json`, `results_ky4.json` |
+| Isolability limit (Prop. 3) | `placement`, `rev_checks` | `prop3_check.py`, `rev_checks.py prop3` | `prop3_check_ky4.json`, `rev_r5_prop3.json` |
+| Conductance-cap sensitivity | `rev_checks` | `rev_checks.py cap` | `rev_r5_cap.json` |
+| Table 2 (placement, independent library) | `rev_placement` | `placement2.py` | `rev_r2_placement_ky4.json`, `rev_r2_placement_ltown.json` |
+| Table 3, Fig. 2 (localisers, X1 and R3) | `ext_localiser`, `rev_localiser` | `localiser2.py`, `localiser3.py` | `ext_localiser_*.json`, `rev_r3_*.json` |
+| Table 4 (BattLeDIM) and detection delays | `battledim`, `rev_checks` | `bd_detect.py`, `rev_checks.py battledim` | `bd_results_2019.json`, `rev_r5_battledim.json` |
+| Table 5, Fig. 3 (failure size X2, robustness R1) | `ext_failure`, `rev_robustness` | `sfp2_eval.py`, `sfp3_eval.py`, `rev_r1_ci.py` | `ext_failure_size.json`, `rev_r1_results.json`, `rev_r1_ci.json` |
+| Table S3 (worked example, Prop. 2) | `rev_checks` | `rev_checks.py walk` | `rev_r5_walk.json` |
+| Table S4 (concurrent-leak interaction, Prop. 4) | `rev_checks` | `rev_checks.py prop4` | `rev_r5_prop4.json` |
+| Table S5 (per-seed localiser results) | `rev_localiser` | `localiser3.py` | `rev_r3_*.json` |
+| Table S6 (first service-failure experiment) | `service_failure` | `sfp_eval.py` | `sfp_results_*.json` |
+| Table S7 (regression generalisation) | `rev_failure_checks` | `sfp2_gen.py` | `rev_r4_failure_checks.json` |
+| Placement on the selection library (Sec. 6) | `placement` | `placement.py` | `placement_*.json` |
 
-Tables 1 to 3 are descriptive (novelty boundary, decision pathway, experimental protocols).
+Tables S1 (novelty boundary) and S2 (protocols) are descriptive.
 
 ## Protocols
 
